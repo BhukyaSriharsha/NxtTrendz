@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.product-item-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.show-product-container {
+  display: flex;
+  gap: 20px;
+}
+
+.product-img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.product-head {
+  color: #171f46;
+}
+
+.price {
+  color: #12022f;
+}
+
+.rating-review-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-rating-container {
+  background-color: #3b82f6;
+  display: flex;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-img {
+  width: 20px;
+  height: 20px;
+}
+
+.status {
+  color: #475569;
+  font-weight: normal;
+}
+
+.product-status {
+  color: #171f46;
+  font-weight: bold;
+}
+
+.product-count {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #616e7c;
+}
+
+.count {
+  font-size: 20px;
+}
+
+.count-change {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-cart-btn {
+  background-color: #3b82f6;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.similar-product-head {
+  color: #475569;
+  font-size: 25px;
+}
+
+.similar-products-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.count-btn{
+  background: transparent;
+  border: none;
+}
